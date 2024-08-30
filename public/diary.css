@@ -1,0 +1,22 @@
+section {
+  display: grid;      
+  gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  width: 420px;
+}
+
+div {
+  border: 1px solid grey;
+  cursor: pointer;
+  font-family: var(--font-roboto);
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+  transition: background 1s;
+}
+
+div:hover {
+  background: gray;
+  color: white;
+}
